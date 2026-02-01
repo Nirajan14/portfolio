@@ -2,3 +2,42 @@
 @import url("layout.css");
 @import url("sections.css");
 @import url("responsive.css");
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-text h2 {
+        font-size: 1.2rem;
+    }
+    
+    .hero-text p {
+        font-size: 1rem;
+    }
+    
+    .profile-img {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    
+    .profile-img::before {
+        width: 270px;
+        height: 270px;
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+    
+    .contact-item {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .contact-icon {
+        margin-bottom: 0.5rem;
+    }
+}
