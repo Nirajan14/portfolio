@@ -72,7 +72,6 @@
 .hero-text p {
     font-size: 1.1rem;
     color: var(--text-muted);
-    margin-bottom: 2rem;
     max-width: 500px;
 }
 
